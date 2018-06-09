@@ -1,0 +1,11 @@
+﻿*.out
+*.o
+*.x
+*.gch
+*.opendb
+*.wf
+*.vector
+*.gif
+Data/*.mat
+*.png
+*.asv
