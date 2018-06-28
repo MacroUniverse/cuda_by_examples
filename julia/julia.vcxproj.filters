@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{89cfc2b8-c98e-4dc6-8a71-2c7a923356a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{d9863c42-55cc-438b-a568-6906f021b9c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="julia.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="matsave.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="nr3plus.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cuda_complex.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="matsave.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="nr3.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="nr3plus.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

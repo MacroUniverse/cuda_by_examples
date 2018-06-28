@@ -1,3 +1,8 @@
+#ifdef _MSC_VER
+#include "cuda_runtime.h"
+#include "device_launch_parameters.h"
+#endif
+
 #include "matsave.h"
 #include "nr3plus.h"
 using namespace std;

@@ -3,9 +3,10 @@
 *.x
 *.gch
 *.opendb
+*.pdb
+*.users
 *.wf
 *.vector
 *.gif
-Data/*.mat
 *.png
 *.asv
